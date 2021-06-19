@@ -7,3 +7,4 @@ Clone da tela de login do Instagram, com uma pequena adaptação... Esta versão
 * A maioria das imagens é do Pixabay (a licença não me traz obrigações, mas o que é bom a gente divulga)
 * Os links não levam a lugar nenhum (nem a patinha para colocar o nariz. Sorry!)
 
+![Prévia](/img/image.png?raw=true "Title")
