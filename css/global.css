@@ -1,0 +1,200 @@
+
+/*    */
+* {
+	padding: 0;
+	margin: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;	
+}
+
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;	
+	justify-content: center;	
+    background-color: #fafafa ;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 800px;
+    height: 100vh;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh;
+    margin-right: 30px;
+}
+
+.phone img {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh;
+}
+
+.login {
+    border: 1px solid #a5bac5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login img {
+    height: 100px;
+}
+
+.login .insta-sub {
+    color: #262627;
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login form {
+    width: 75%;    
+    margin-bottom: 10px;
+}
+
+.login form input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    background-color: #fafafa;
+    border: 1px solid #a5bac5;
+    font-size: smaller;
+    padding-left: 10px;;
+    border-radius: 3px;
+}
+
+.login button {
+    width: 75%;
+    height: 30px;
+    background-color: #b2dffc;
+    color: #fafafa;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: small;
+    margin-bottom: 15px;
+}
+
+.login .separator {
+    width: 75%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.login .separator .separator-line {
+    width: 50%;
+    background: #aaa39d;
+    height:1px; 
+    margin: auto;
+}
+
+.login .separator .separator-or {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #aaa39d
+}
+
+.dog-foot {
+    border-radius: 50%;
+}
+
+.dog-foot-sub {
+    margin-bottom: 10px;
+    color: #262627;
+}
+
+
+
+
+.cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #262627;
+    width: 100%;
+    height: 50px;;
+    border: 1px solid #a5bac5;
+    margin-bottom: 15px;
+}
+
+.cadastrar a {
+   color:  #0195f6
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.download p {
+    margin-bottom: 15px;
+}
+
+.download .buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.download .app-button {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    background-image: url(../img/apple-button.png);
+}
+
+.download .goo-button {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    background-image: url(../img/googleplay-button.png);
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+   
+}
+
+@media (max-width: 650px) {
+
+    .instagram {
+        width: 75%;
+    }
+    .phone {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
